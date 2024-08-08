@@ -1,0 +1,21 @@
+{
+  "name": "ESPHome",
+  "version": "2024.7.3",
+  "home_assistant_domain": "esphome",
+  "funding_url": "https://esphome.io/guides/supporters.html",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-C6",
+      "parts": [
+        { "path": "bubble-counter-v4.factory.bin", "offset": 0 },
+      ]
+    },
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        { "path": "esp8266.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
